@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 90px;
+    background-color: #14213d;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-graduation-cap{
+    font-size: 30px;
+    color: #fcbf49;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.ism{
+    color: white;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+.fa-solid{
+    color: #fcbf49;
+}
+.link:hover{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 30px;
+}
+.birinchi{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.fa-user-graduate{
+    font-size: 50px;
+    background-color: cadetblue;
+    padding: 30px;
+    color: white;
+    border-radius: 50%;
+}
+
+.salomlashish{
+    font-size: 40px;
+    color: #14213d;
+    font-weight: 800;
+}
+.sinf{
+    color: cadetblue;
+    font-weight: 700;
+}
+.yoqtirish{
+    color: #14213d;
+}
+button{
+    background-color: #fcbf49;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    color: #14213d;
+    font-weight: 800;
+    font-size: 15px;
+}
+.fa-arrow-down-long {
+    color: #14213d;
+}
